@@ -253,7 +253,7 @@ function! s:echo(msg, hi)
 
   exe 'echohl ' . a:hi
   for line in l:msg
-    echom "vim-go: " . line
+    echom "gomotion: " . line
   endfor
   echohl None
 endfunction
@@ -300,4 +300,7 @@ function! s:shellJoin(arglist, ...) abort
   endtry
 endfunction
 
+function! s:echoError(msg)
+  call s:echo(a:msg, 'ErrorMsg')
+endfunction
 
