@@ -1,3 +1,5 @@
+Repo is archived. Use [funkmotion](https://github.com/sergii4/funkmotion) instead.
+
 # gomotion.vim 
 
 A plugin that navigates you through Go declarations: functions, structures, interfaces
